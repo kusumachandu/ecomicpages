@@ -16,7 +16,7 @@ export default function Landing() {
                         <button className="border border-yellow-500 text-yellow-500 w-24 rounded-md py-1 -mt-1 active:scale-95 transition-all delay-200">APPLY</button>
                     </div>
                     <div className="py-8 pl-2">
-                        <h1 className="font-bold text-[38px] font-serif">HISTORY OF CREATION</h1>
+                        <h1 className="font-bold text-[64px] font-inter">HISTORY OF CREATION</h1>
                     </div>
                     <div className="pl-2 pb-8 text-yellow-500">
                         <p className="text-xs font-thin">WE WOULD LIKE TO TELL THE BLACKSTORY</p>

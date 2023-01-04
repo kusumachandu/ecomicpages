@@ -1,11 +1,12 @@
+/* import url(); */
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* import url(); */
-@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 
 
 .font-inter {
-  font-family: 'https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap';
+  font-family: 'East Sea Dokdo', cursive;
 }
