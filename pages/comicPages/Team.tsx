@@ -4,7 +4,7 @@ export default function TeamPage() {
     return (
         <div className="px-[1px] py-[1px]">
         <div className="px-[1px] py-[1px] rounded-lg">
-            <div className="bg-black h-screen rounded-lg" style={{ backgroundImage: `url('https://images.hdqwalls.com/wallpapers/marvel-vs-dc-4k-iu.jpg')` }}>
+            <div className="bg-black h-screen rounded-lg" style={{ backgroundImage: `url('/bgimg1.png')` }}>
                 <Navbar />
                 <div className="text-white px-20 py-14">
                     <h1 className="font-inter text-[40px]">WANT TO JOIN OUR TEAM ?</h1>

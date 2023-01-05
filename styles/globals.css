@@ -1,6 +1,7 @@
 /* import url(); */
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,5 +14,8 @@
 }
 
 .font-desc {
-  font-family: 'Big Shoulders Text', cursive;;
+  font-family: 'BenchNine', sans-serif;
 }
+
+
+/*'Itim', cursive */

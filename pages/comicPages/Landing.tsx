@@ -22,7 +22,7 @@ export default function Landing() {
                     <div className="pl-2 pb-8 text-yellow-100">
                         <p className="font-desc text-[18px] font-thin">WE WOULD LIKE TO TELL THE BLACKSTORY</p>
                     </div>
-                    <div className="pl-2 w-[420px] text-yellow-100">
+                    <div className="pl-2 w-[430px] text-yellow-100">
                         <p className="text-[18px] font-extralight font-desc">OUR TEAM IS MASTERING TECHNOLOGIES FOR NET UNIVERSES. AND WE DECIDED TO TRY TO OPEN NEW HORIZONS AND INTRODUCE NET INTO THE COMIC UNIVERSE! WE LOVE COMICS VERY MUCH AND WANTED TO PUT OUR SOUL INTO THIS PROJECT</p>
                     </div>
                     <div className="grid grid-cols-2 gap-x-4 gap-y-10  text-white pl-2 pt-8">

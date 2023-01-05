@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function CollectionPage(){
     return (
         <div className="px-[1px] py-[1px]">
-        <div className="bg-black h-screen rounded-lg" style={{backgroundImage : `url('https://images.hdqwalls.com/wallpapers/marvel-vs-dc-4k-iu.jpg')`}}>;
+        <div className="bg-black h-screen rounded-lg" style={{backgroundImage : `url('/bgimg1.png')`}}>;
             <div className="mt-[-20px]">
             <Navbar />
             </div>
