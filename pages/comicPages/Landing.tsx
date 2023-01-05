@@ -5,14 +5,14 @@ export default function Landing() {
         <div>
             <div className="h-screen border pt-3 border-black flex gap-5 bg-black rounded-md">
                 <div className="w-[58%] text-white relative">
-                    <h1 className="absolute text-4xl font-inter pt-8 pl-10 font-bold text-yellow-500">MOICI</h1>
+                    <a href="" className="absolute cursor-pointer text-4xl font-inter pt-8 pl-10 font-bold text-yellow-500">MOICI</a>
                     <img className="w-[100%] pb-5 min-h-screen" src="https://cdn.dribbble.com/userupload/4083252/file/original-5a850202c0b00459951008a2190f2b70.jpg?compress=1&resize=1504x1128&vertical=center" />
                 </div>
                 <div className="w-[40%]  text-gray-300 font-desc">
                     <div className="flex justify-between text-md font-semibold  pl-36 pr-10 pt-10">
-                        <p className="cursor-pointer">COLLECTION OPENING</p>
+                        <a href='http://localhost:3000/comicPages/Collection' className="cursor-pointer">COLLECTION OPENING</a>
                         <a href="http://localhost:3000/comicPages/About" className="cursor-pointer">ABOUT</a>
-                        <p className="cursor-pointer">TEAM</p>
+                        <a href="http://localhost:3000/comicPages/Team" className="cursor-pointer">TEAM</a>
                         <button className="border border-yellow-100 text-yellow-100 w-24 rounded-md py-1 -mt-2 active:scale-95 transition-all ">APPLY</button>
                     </div>
                     <div className="py-8 pl-2">
