@@ -1,5 +1,6 @@
 /* import url(); */
-@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,5 +9,9 @@
 
 
 .font-inter {
-  font-family: 'East Sea Dokdo', cursive;
+  font-family: 'Bangers', cursive;
+}
+
+.font-desc {
+  font-family: 'Big Shoulders Text', cursive;;
 }
