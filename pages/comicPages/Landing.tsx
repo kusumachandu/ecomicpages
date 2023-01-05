@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 export default function Landing() {
@@ -10,9 +11,9 @@ export default function Landing() {
                 </div>
                 <div className="w-[40%]  text-gray-300 font-desc">
                     <div className="flex justify-between text-md font-semibold  pl-36 pr-10 pt-10">
-                        <a href='http://localhost:3000/comicPages/Collection' className="cursor-pointer">COLLECTION OPENING</a>
-                        <a href="http://localhost:3000/comicPages/About" className="cursor-pointer">ABOUT</a>
-                        <a href="http://localhost:3000/comicPages/Team" className="cursor-pointer">TEAM</a>
+                        <Link href='/comicPages/Collection' className="cursor-pointer">COLLECTION OPENING</Link>
+                        <Link href="/comicPages/About" className="cursor-pointer">ABOUT</Link>
+                        <Link href="/comicPages/Team" className="cursor-pointer">TEAM</Link>
                         <button className="border border-yellow-100 text-yellow-100 w-24 rounded-md py-1 -mt-2 active:scale-95 transition-all ">APPLY</button>
                     </div>
                     <div className="py-8 pl-2">
