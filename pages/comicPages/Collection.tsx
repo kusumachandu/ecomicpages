@@ -16,21 +16,21 @@ export default function CollectionPage(){
                     <p className="text-end font-desc text-gray-300">VERY SOON!</p>
                 </div>
             </div>
-            <div className="flex gap-10 pl-20 pt-10">
-                <div className="w-[200px] h-[250px] mt-12 active:scale-95 hover:scale-105 transition-all duration-200  rounded-lg shadow-xl">
-                    <img className="w-[100%] h-[100%] cursor-pointer rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbp5i8SlYG2HnW7WvLPJnYEU6wJ--Ryao5TBY8YhbbkKQ0kwQD0BodNj9F3xYX7U3oSU&usqp=CAU" />
+            <div className="flex gap-10 lg:pl-20 sm:px-10 md:pl-10 pt-10">
+                <div className="hovershake lg:w-[200px] lg:h-[250px] sm:w-[200px] sm:h-[180px] mt-12  rounded-lg shadow-xl">
+                    <img className="w-[100%] h-[100%] cursor-pointer active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbp5i8SlYG2HnW7WvLPJnYEU6wJ--Ryao5TBY8YhbbkKQ0kwQD0BodNj9F3xYX7U3oSU&usqp=CAU" />
                 </div>
-                <div className="w-[225px] h-[275px] mt-[24px] active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl">
-                    <img className="w-[100%] h-[100%] cursor-pointer rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5gA3iCOVu32GnGf-QoBEGeM51-ymRzgy7Bi9AZL5znEtDVr5OHL1G-VnKN3sl5UO4hg&usqp=CAU" />
+                <div className="hovershake lg:w-[225px] lg:h-[275px] sm:w-[225px] sm:h-[205px] mt-[24px] rounded-lg shadow-xl">
+                    <img className="w-[100%] h-[100%] cursor-pointer active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5gA3iCOVu32GnGf-QoBEGeM51-ymRzgy7Bi9AZL5znEtDVr5OHL1G-VnKN3sl5UO4hg&usqp=CAU" />
                 </div>
-                <div className="w-[250px] h-[300px] active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl">
-                    <img className="w-[100%] h-[100%] cursor-pointer rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxs66Wq9CjDxuj50PsKOZ3fIwOLLjyuTmTA&usqp=CAU" />
+                <div className="hovershake lg:w-[250px] lg:h-[300px] sm:w-[250px] sm:h-[230px] rounded-lg shadow-xl">
+                    <img className="w-[100%] h-[100%] cursor-pointer active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxs66Wq9CjDxuj50PsKOZ3fIwOLLjyuTmTA&usqp=CAU" />
                 </div>
-                <div className="w-[225px] h-[275px] mt-[24px] active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl">
-                    <img className="w-[100%] h-[100%] cursor-pointer rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMVUO8r3DoN7GGZ6O39cylzYMVqtaGObOpjA&usqp=CAU" />
+                <div className="hovershake lg:w-[225px] lg:h-[275px] sm:w-[225px] sm:h-[205px] mt-[24px] rounded-lg shadow-xl">
+                    <img className="w-[100%] h-[100%] cursor-pointer active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMVUO8r3DoN7GGZ6O39cylzYMVqtaGObOpjA&usqp=CAU" />
                 </div>
-                <div className="w-[200px] h-[250px] mt-12 active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl">
-                    <img className="w-[100%] h-[100%] cursor-pointer rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXZwaBfGvTCztdCE6mUCkoJdMiVfmKTh8DQ&usqp=CAU" />
+                <div className=" hovershake lg:w-[200px] lg:h-[250px] sm:w-[200px] sm:h-[180px] mt-12 rounded-lg shadow-xl">
+                    <img className="w-[100%] h-[100%] cursor-pointer active:scale-95 hover:scale-105 transition-all duration-200 rounded-lg shadow-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXZwaBfGvTCztdCE6mUCkoJdMiVfmKTh8DQ&usqp=CAU" />
                 </div>
             </div>
             <div className="text-center font-desc text-yellow-200 pt-10">
