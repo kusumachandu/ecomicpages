@@ -3,8 +3,8 @@ import Link from "next/link"
 export default function Navbar() {
     return (
         <div className="flex justify-between">
-            <div className="text-white pt-8 w-1/2">
-                <Link href='/comicPages/Landing' className="hovershake text-4xl cursor-pointer font-inter pl-5 lg:pl-20 md:pl-10 font-bold text-yellow-100">MOICI</Link>   
+            <div className="text-white pt-8 w-1/2 hovershake">
+                <Link href='/comicPages/Landing' className="text-4xl cursor-pointer font-inter pl-5 lg:pl-20 md:pl-10 font-bold text-yellow-100">MOICI</Link>   
             </div>
             <div className="">
                 <div className="flex gap-5 text-xs lg:text-[16px] font-semibold pr-2 lg:pr-20 md:pr-10 pt-10 lg:pt-12 text-gray-300 font-desc">
