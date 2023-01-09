@@ -2,55 +2,56 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <div className="bg-black h-screen">
+        <div className="bg-black">
             <Navbar />
-            <div className="flex gap-5 pt-10 text-center">
-                <div className="w-[43%] h-[640px]  text-white">
+            <div className="pt-3 text-center">
+                <div className="w-full  text-white md:flex lg:flex ">
+                    <div className="w-[100%] h-[400px] md:h-[700px] lg:h-[700px]  rounded-lg pr-7">
+                        <img className="w-[100%] h-[400px] md:h-[700px] lg:h-[700px] rounded-lg" src="/bgimg3.png" />
+                    </div>
                     <div className="">
                         <div>
-                            <h1 className="font-extrabold lg:text-[50px] sm:text-[30px] font-inter">ABOUT OUR PROJECT</h1>
+                            <h1 className="font-extrabold text-[50px] pt-10 font-inter">ABOUT OUR PROJECT</h1>
                         </div>
-                        <div className="lg:px-28 sm:px-10 pt-5 text-yellow-100">
+                        <div className="pt-5 text-yellow-100 w-[65%] m-auto">
                             <p className="font-thin text-md font-desc">THIS PROJECT IS MEANT TO BRING THE COMIC UNIVERSE TO NET CARDS, EACH CARD WILL BE UNIQUE IN ITS OWN WAY! WE WILL EXPAND THE UNIVERSE OF OUR COMICS AND THE DECK OF CARDS WILL INCREASE . . .</p>
                         </div>
-                        <div className="lg:h-[350px] md:h-[325px] sm:h-[300px] lg:w-[450px] md:w-[250px] sm:w-[250px] relative border-red-300 m-auto">
-                            <div className=" absolute lg:w-[150px] sm:w-[100px] lg:h-[230px] sm:h-[170px] rounded-lg lg:mt-[13%] sm:mt-[20%] lg:ml-[45%] sm:ml-[46%] lg:rotate-[13deg] sm:rotate-[20deg]">
+                        <div className="relative border-red-300 m-auto py-10 lg:py-16">
+                            <div className="w-30 h-40 ml-[50%] mt-3  absolute rotate-[15deg]  rounded-lg ">
                                 <img className="w-[100%] h-[100%] rounded-lg transition-all delay-150 hover:scale-105" src="https://i.pinimg.com/474x/f0/ba/ac/f0baac2ce75266bc16992079da60d441.jpg" />
                             </div>
-                            <div className="lg:w-[150px] sm:w-[100px] lg:h-[230px] sm:h-[170px] absolute rounded-lg lg:mt-[13.5%] sm:mt-[20%] lg:ml-[22%] sm:ml-[8%] lg:rotate-[347deg] sm:rotate-[340deg]">
+                            <div className="w-30 h-40 ml-[29%] mt-3 absolute rotate-[-15deg] rounded-lg ">
                                 <img className="w-[100%] h-[100%] rounded-lg transition-all delay-150 hover:scale-105" src="https://i.pinimg.com/474x/f0/ba/ac/f0baac2ce75266bc16992079da60d441.jpg" />
                             </div>
-                            <div className="lg:w-[150px] sm:w-[120px] absolute lg:h-[250px] sm:h-[190px] lg:mt-[10%] sm:mt-[15%] lg:ml-[33.5%] sm:ml-[23%] rounded-lg m-auto">
+                            <div className="w-32 h-44 relative  rounded-lg m-auto">
                                 <img className="w-[100%] h-[100%] rounded-lg transition-all delay-150 duration-400 hover:scale-105" src="https://i.pinimg.com/474x/f0/ba/ac/f0baac2ce75266bc16992079da60d441.jpg" />
                             </div>
                         </div>
-                        <div className="flex justify-between lg:w-[400px] sm:w-[250px] m-auto font-desc">
+                        <div className="flex justify-between w-[50%] m-auto lg:pt-2 md:pt-5 font-desc">
                             <div className="hovershake">
-                                <button className="border-2 border-yellow-200 bg-yellow-200 text-black font-bold lg:w-44 sm:w-24 py-2 rounded-lg transition-all active:scale-95">PRE-ORDER</button>
+                                <button className="border-2 w-[100px] border-yellow-200 bg-yellow-200 text-black font-bold text-sm  py-2 rounded-lg transition-all active:scale-95">PRE-ORDER</button>
                             </div>
                             <div className="hovershake">
-                                <button className="border-2 border-yellow-200 text-yellow-200 font-desc font-bold lg:w-44 sm:w-24 py-2 rounded-lg transition-all active:scale-95">WATCH DECK</button>
+                                <button className="border-2 w-[100px] border-yellow-200 text-yellow-200 font-desc text-sm font-bold  py-2 rounded-lg transition-all active:scale-95">WATCH DECK</button>
                             </div>
                         </div>
-                        <div className="flex lg:w-[400px] sm:w-[200px] lg:py-16 sm:py-16 m-auto justify-between ">
+                        <div className="flex m-auto  pt-10 md:pt-20 lg:pt-30 justify-between w-[50%] pb-5">
                             <div className="hovershake">
-                                <svg className="lg:cursor-pointer md:cursor-pointer sm:cursor-pointer lg:active:scale-95 md:active:scale-95 sm:active:scale-95 lg:w-[28px] sm:w-[20px] lg:h-[28px] sm:h-[20px]" viewBox="0 0 24 24" opacity={0.5} width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                <svg className="active:scale-95" viewBox="0 0 24 24" opacity={0.5} width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                             </div>
                             <div className="hovershake">
-                                <svg className="lg:cursor-pointer md:cursor-pointer sm:cursor-pointer lg:active:scale-95 md:active:scale-95 sm:active:scale-95 lg:w-[28px] sm:w-[20px] lg:h-[28px] sm:h-[20px]" viewBox="0 0 24 24" opacity={0.5} width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                                <svg className="active:scale-95" viewBox="0 0 24 24" opacity={0.5} width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                             </div>
                             <div className="hovershake">
-                                <svg className="lg:cursor-pointer md:cursor-pointer sm:cursor-pointer lg:active:scale-95 ms:active:scale-95 sm:active:scale-95 lg:w-[28px] sm:w-[20px] lg:h-[28px] sm:h-[20px]" viewBox="0 0 24 24" opacity={0.5} width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                <svg className="active:scale-95" viewBox="0 0 24 24" opacity={0.5} width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                             </div>
                             <div className="hovershake">
-                                <svg className="lg:cursor-pointer sm:cursor-pointer md:cursor-pointer lg:active:scale-95 md:active:scale-95 sm:active:scale-95 lg:w-[28px] sm:w-[20px] lg:h-[28px] sm:h-[20px]" viewBox="0 0 24 24" opacity={0.5} width="28" height="28" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+                                <svg className="active:scale-95" viewBox="0 0 24 24" opacity={0.5} width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="w-[55%] h-[640px]  rounded-lg pr-7">
-                    <img className="w-[100%] h-[640px] rounded-lg" src="/bgimg3.png" />
-                </div>
+
             </div>
         </div>
     )

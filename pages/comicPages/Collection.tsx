@@ -36,11 +36,11 @@ export default function CollectionPage(){
             <div className="text-center font-desc text-yellow-200 pt-10">
                 <p>THE FIRST MOICI COLLECTION IS COMING SOON!</p>
             </div>
-            <div className="text-center font-desc text-yellow-200 pt-5 w-[50%] lg:w-[31%] m-auto">
+            <div className="text-center font-desc text-yellow-200 pt-5 w-[50%] lg:w-[31%] md:w-[44%] m-auto">
                 <p>THE COLLECTION BEGINS ITS SALE ON DECEMBER 31, 2022, CREATED BY THE ONFLOW DESIGN TEAM. FOLLOW THE NEWS AND WE WILL TELL YOU ALL THE DETAILS BEFORE THE START OF SALES.</p>
             </div>
             <div className="flex gap-2 pt-10">
-                <p className="font-inter text-white text-3xl text-center ml-[36%] lg:ml-[45%]">31.12</p><p className="font-desc text-white text-xs mt-4">COLLECTION OPENING</p>
+                <p className="font-inter text-white text-3xl text-center ml-[36%] lg:ml-[45%] md:ml-[45%]">31.12</p><p className="font-desc text-white text-xs mt-4">COLLECTION OPENING</p>
             </div>
         </div>
         </div>
