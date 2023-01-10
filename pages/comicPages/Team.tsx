@@ -14,8 +14,24 @@ export default function TeamPage() {
             >
                 <Navbar />
                 <div className="text-white px-20 py-14">
-                    <h1 className="font-inter text-[30px] md:text-[40px] lg:text-[40px]">WANT TO JOIN OUR TEAM ?</h1>
-                    <p className="font-desc text-yellow-100 pb-5">WE'RE LOOKING FOR</p>
+                    <motion.h1 className="font-inter text-[30px] md:text-[40px] lg:text-[40px]"
+                        initial = {{x:-200}}
+                        animate={{x:0}}
+                        transition = {{
+                            duration : 3
+                        }}
+                    >
+                        WANT TO JOIN OUR TEAM ?
+                    </motion.h1>
+                    <motion.p className="font-desc text-yellow-100 motion.pb-5"
+                        initial = {{x:200}}
+                        animate={{x:0}}
+                        transition = {{
+                            duration : 3
+                        }}
+                    >
+                        WE'RE LOOKING FOR
+                    </motion.p>
                     <div className="grid grid-cols-2 gap-x-2 gap-y-7 py-2 w-[300px] ">
                         <div className="topslide5">
                             <div className="hovershake topslide8 pb-2">
@@ -29,10 +45,10 @@ export default function TeamPage() {
                             </div>
                             <div className=" w-[105px]">
                                 <motion.p className="text-sm font-inter text-center"
-                                    initial = {{y: -200}}
-                                    animate = {{y:0}}
+                                    initial = {{x: -200}}
+                                    animate = {{x:0}}
                                     transition = {{
-                                        duration : 1
+                                        duration : 3
                                     }}
                                 >
                                     COLLAB MANAGER
@@ -54,10 +70,10 @@ export default function TeamPage() {
                             </div>
                             <div className=" w-[105px] ">
                                 <motion.p className="text-sm font-inter text-center"
-                                    initial = {{y: -200}}
-                                    animate = {{y:0}}
+                                    initial = {{x: 200}}
+                                    animate = {{x:0}}
                                     transition = {{
-                                        duration : 1
+                                        duration : 3
                                     }}
                                 >
                                     RUST DEV
@@ -76,10 +92,10 @@ export default function TeamPage() {
                             </div>
                             <div className=" w-[105px]">
                                 <motion.p className="text-sm font-inter text-center"
-                                    initial = {{y: 200}}
-                                    animate = {{y:0}}
+                                    initial = {{x: -200}}
+                                    animate = {{x:0}}
                                     transition = {{
-                                        duration : 1
+                                        duration : 3
                                     }}
                                 >
                                     WEB3 DEV
@@ -100,10 +116,10 @@ export default function TeamPage() {
                             </div>
                             <div className=" w-[105px]">
                                 <motion.p className="text-sm font-inter text-center"
-                                    initial = {{y: 200}}
-                                    animate = {{y:0}}
+                                    initial = {{x: 200}}
+                                    animate = {{x:0}}
                                     transition = {{
-                                        duration : 1
+                                        duration : 3
                                     }}
                                 >
                                     DISCORD CHANNEL MODERATOR
