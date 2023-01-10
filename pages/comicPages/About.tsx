@@ -12,15 +12,36 @@ export default function About() {
             <div className="pt-3 text-center">
                 <div className="w-full  text-white md:flex lg:flex ">
                     <div className="w-[100%] h-[400px] md:h-[700px] lg:h-[700px]  rounded-lg pr-7">
-                        <img className="w-[100%] h-[400px] md:h-[700px] lg:h-[700px] rounded-lg" src="/bgimg3.png" />
+                        <motion.img 
+                            key={'/bgimg3.png'}
+                            src="/bgimg3.png"
+                            className="w-[100%] h-[400px] md:h-[700px] lg:h-[700px] rounded-lg"
+                            initial = {{x:-200}}
+                            animate = {{x:0}}
+                            transition = {{
+                                duration: 2
+                            }}
+                        />
                     </div>
                     <div className="">
-                        <div>
+                        <motion.div
+                            initial = {{x: 200}}
+                            animate = {{x:0}}
+                            transition = {{
+                                duration: 2
+                            }}
+                        >
                             <h1 className="font-extrabold text-[50px] pt-10 font-inter">ABOUT OUR PROJECT</h1>
-                        </div>
-                        <div className="pt-5 text-yellow-100 w-[65%] m-auto">
+                        </motion.div>
+                        <motion.div className="pt-5 text-yellow-100 w-[65%] m-auto"
+                            initial = {{x: 200}}
+                            animate = {{x:0}}
+                            transition = {{
+                                duration: 2
+                            }}
+                        >
                             <p className="font-thin text-md font-desc">THIS PROJECT IS MEANT TO BRING THE COMIC UNIVERSE TO NET CARDS, EACH CARD WILL BE UNIQUE IN ITS OWN WAY! WE WILL EXPAND THE UNIVERSE OF OUR COMICS AND THE DECK OF CARDS WILL INCREASE . . .</p>
-                        </div>
+                        </motion.div>
                         <motion.div
                             initial={{ opacity: 0, scale: 0.5 }}
                             animate={{
@@ -30,7 +51,7 @@ export default function About() {
                             }}
                             transition={{
                                 delay: 0.5,
-                                x: { duration: 2 },
+                                 duration: 3,
                                 default: { ease: "linear" }
                             }}
                         >
