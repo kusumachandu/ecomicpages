@@ -19,34 +19,95 @@ export default function TeamPage() {
                     <div className="grid grid-cols-2 gap-x-2 gap-y-7 py-2 w-[300px] ">
                         <div className="topslide5">
                             <div className="hovershake topslide8 pb-2">
-                                <img className="active:scale-95 w-28 h-28 rounded-full transition-all hover:scale-105 duration-200" src='https://w0.peakpx.com/wallpaper/113/182/HD-wallpaper-avengers-avengers-endgame-captain-america-iron-man-thanos-thor.jpg' />
+                                <motion.img className="active:scale-95 w-28 h-28 rounded-full transition-all hover:scale-105 duration-200" src='https://w0.peakpx.com/wallpaper/113/182/HD-wallpaper-avengers-avengers-endgame-captain-america-iron-man-thanos-thor.jpg' 
+                                    initial = {{y: -200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                />
                             </div>
                             <div className=" w-[105px]">
-                                <p className="text-sm font-inter text-center">COLLAB MANAGER</p>
+                                <motion.p className="text-sm font-inter text-center"
+                                    initial = {{y: -200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                >
+                                    COLLAB MANAGER
+                                </motion.p>
                             </div>
                         </div>
                         <div className="topslide6">
                             <div className="hovershake topslide8 pb-2 ">
-                                <img className=" active:scale-95 w-28 h-28 rounded-full text-center transition-all hover:scale-105 duration-200" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLn4NRLX8HwL_N4SIEkG3XBDg6R2wvOUdHnQ&usqp=CAU' />
+                                <motion.img 
+
+                                    className=" active:scale-95 w-28 h-28 rounded-full text-center transition-all hover:scale-105 duration-200" 
+                                    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLn4NRLX8HwL_N4SIEkG3XBDg6R2wvOUdHnQ&usqp=CAU' 
+                                    initial = {{y: -200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                />
                             </div>
                             <div className=" w-[105px] ">
-                                <p className="text-sm font-inter text-center">RUST DEV</p>
+                                <motion.p className="text-sm font-inter text-center"
+                                    initial = {{y: -200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                >
+                                    RUST DEV
+                                </motion.p>
                             </div>
                         </div>
                         <div className="topslide7">
                             <div className="hovershake topslide8 pb-2">
-                                <img className=" active:scale-95 w-28 h-28 rounded-full text-center transition-all hover:scale-105 duration-200" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUAT_8la76oTYQO-1WBzg4mWMwzTjacMUygA&usqp=CAU' />
+                                <motion.img className=" active:scale-95 w-28 h-28 rounded-full text-center transition-all hover:scale-105 duration-200" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUAT_8la76oTYQO-1WBzg4mWMwzTjacMUygA&usqp=CAU' 
+                                initial = {{y: 200}}
+                                animate = {{y:0}}
+                                transition = {{
+                                    duration : 1
+                                }}
+                            />
                             </div>
                             <div className=" w-[105px]">
-                                <p className="text-sm font-inter text-center">WEB3 DEV</p>
+                                <motion.p className="text-sm font-inter text-center"
+                                    initial = {{y: 200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                >
+                                    WEB3 DEV
+                                </motion.p>
                             </div>
                         </div>
                         <div className="topslide8">
                             <div className="hovershake topslide8 pb-2">
-                                <img className=" w-28 h-28 rounded-full text-center transition-all hover:scale-105 active:scale-95 duration-200" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGoW2AiO38k2XMxaB474tjyVDSa6Zr_j59A&usqp=CAU' />
+                                <motion.img 
+                                    className=" w-28 h-28 rounded-full text-center transition-all hover:scale-105 active:scale-95 duration-200" 
+                                    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGoW2AiO38k2XMxaB474tjyVDSa6Zr_j59A&usqp=CAU' 
+                                    initial = {{y: 200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                />
                             </div>
                             <div className=" w-[105px]">
-                                <p className="text-sm font-inter text-center">DISCORD CHANNEL MODERATOR</p>
+                                <motion.p className="text-sm font-inter text-center"
+                                    initial = {{y: 200}}
+                                    animate = {{y:0}}
+                                    transition = {{
+                                        duration : 1
+                                    }}
+                                >
+                                    DISCORD CHANNEL MODERATOR
+                                </motion.p>
                             </div>
                         </div>
                     </div>
