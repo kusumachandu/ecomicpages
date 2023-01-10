@@ -30,7 +30,7 @@ export default function TeamPage() {
                             duration : 3
                         }}
                     >
-                        WE'RE LOOKING FOR
+                        WE`RE LOOKING FOR
                     </motion.p>
                     <div className="grid grid-cols-2 gap-x-2 gap-y-7 py-2 w-[300px] ">
                         <div className="topslide5">
@@ -130,7 +130,7 @@ export default function TeamPage() {
                     <div className="py-10 flex gap-[2px]">
                         <p className=" font-desc text-yellow-100">FILL IN THE</p> 
                         <p className="hovershake underline cursor-pointer font-desc text-yellow-100 hover:text-yellow-500">FORM</p>.
-                        <p className="font-desc text-yellow-100"> IF YOU'RE INTERESTED TO JOIN OUR TEAM.</p>
+                        <p className="font-desc text-yellow-100"> IF YOU`RE INTERESTED TO JOIN OUR TEAM.</p>
                     </div>
                 </div>
             </motion.div>
