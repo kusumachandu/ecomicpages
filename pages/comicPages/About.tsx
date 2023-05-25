@@ -7,7 +7,7 @@ export default function About() {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="bg-black">
+        <div className="bg-black h-screen">
             <Navbar />
             <div className="pt-3 text-center">
                 <div className="w-full  text-white md:flex lg:flex ">
