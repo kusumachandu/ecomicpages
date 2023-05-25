@@ -6,7 +6,7 @@ export default function Landing() {
     const controls = useDragControls()
 
     return (
-        <div className="bg-black rounded-lg">
+        <div className="bg-black rounded-lg h-screen">
 
             <div>
                 <Navbar />
